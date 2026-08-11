@@ -1,0 +1,258 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "b78bcdd1-e86a-43b0-a544-30aa8f526320")
+	(paper "A4")
+	(lib_symbols)
+	(rectangle
+		(start 180.594 97.79)
+		(end 233.68 133.096)
+		(stroke
+			(width 0.508)
+			(type solid)
+			(color 0 194 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "1c30325d-86f7-40fc-9950-3a85c56927e6")
+	)
+	(rectangle
+		(start 52.578 62.484)
+		(end 119.888 82.042)
+		(stroke
+			(width 0.508)
+			(type solid)
+			(color 0 194 194 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "2264a760-6914-4114-b711-c13ec4847a49")
+	)
+	(rectangle
+		(start 89.916 85.09)
+		(end 119.634 99.822)
+		(stroke
+			(width 0.508)
+			(type solid)
+			(color 221 133 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "aca31dae-c0f9-4665-b3f0-463e5c62da59")
+	)
+	(rectangle
+		(start 180.594 62.738)
+		(end 210.312 83.312)
+		(stroke
+			(width 0.508)
+			(type solid)
+			(color 221 133 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "ba21fd0c-271e-4124-8c28-7a8bf43cd783")
+	)
+	(rectangle
+		(start 122.428 62.484)
+		(end 168.148 82.042)
+		(stroke
+			(width 0.508)
+			(type solid)
+			(color 194 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "cc7a1a23-57f0-47e0-9f44-9fe5a31b898b")
+	)
+	(rectangle
+		(start 104.902 107.696)
+		(end 157.988 143.002)
+		(stroke
+			(width 0.508)
+			(type solid)
+			(color 194 0 194 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "fc3cea83-837c-4124-83d5-299c6baa4bc3")
+	)
+	(text "USB-C"
+		(exclude_from_sim no)
+		(at 144.78 73.152 0)
+		(effects
+			(font
+				(size 7.62 7.62)
+				(thickness 1.524)
+				(bold yes)
+				(color 194 0 0 1)
+			)
+		)
+		(uuid "0044b1ef-cab0-41c3-9ac9-4f690100c350")
+	)
+	(text "Barrel Jack"
+		(exclude_from_sim no)
+		(at 86.36 72.644 0)
+		(effects
+			(font
+				(size 7.62 7.62)
+				(thickness 1.524)
+				(bold yes)
+				(color 0 194 194 1)
+			)
+		)
+		(uuid "0b74f845-11b4-4987-8f99-f854f5f1431c")
+	)
+	(text "Buck"
+		(exclude_from_sim no)
+		(at 104.902 91.948 0)
+		(effects
+			(font
+				(size 7.62 7.62)
+				(thickness 1.524)
+				(bold yes)
+				(color 221 133 0 1)
+			)
+		)
+		(uuid "3a49a872-1671-4fe1-8dc8-19b9c8b9a99e")
+	)
+	(text "LED"
+		(exclude_from_sim no)
+		(at 130.302 126.492 0)
+		(effects
+			(font
+				(size 7.62 7.62)
+				(thickness 1.524)
+				(bold yes)
+				(color 194 0 194 1)
+			)
+		)
+		(uuid "474b05d3-dc31-4903-8d67-600586c2c0e9")
+	)
+	(text "MCU"
+		(exclude_from_sim no)
+		(at 205.994 116.586 0)
+		(effects
+			(font
+				(size 7.62 7.62)
+				(thickness 1.524)
+				(bold yes)
+				(color 0 194 0 1)
+			)
+		)
+		(uuid "81827855-c734-4350-af4e-6b061a81a010")
+	)
+	(text "LDO"
+		(exclude_from_sim no)
+		(at 195.58 72.898 0)
+		(effects
+			(font
+				(size 7.62 7.62)
+				(thickness 1.524)
+				(bold yes)
+				(color 221 133 0 1)
+			)
+		)
+		(uuid "acedfab8-8b11-4444-ae21-cfc82fb24985")
+	)
+	(polyline
+		(pts
+			(xy 180.086 100.33) (xy 166.37 100.33)
+		)
+		(stroke
+			(width 0.762)
+			(type solid)
+			(color 194 194 0 1)
+		)
+		(uuid "0b306004-f3b1-44e1-8c5f-c440a93ed0bd")
+	)
+	(polyline
+		(pts
+			(xy 103.124 84.582) (xy 103.124 82.042)
+		)
+		(stroke
+			(width 0.762)
+			(type solid)
+			(color 194 194 0 1)
+		)
+		(uuid "19bbb636-d673-4173-b8f1-c9a60463d6d6")
+	)
+	(polyline
+		(pts
+			(xy 195.834 97.282) (xy 195.834 83.82)
+		)
+		(stroke
+			(width 0.762)
+			(type solid)
+			(color 194 194 0 1)
+		)
+		(uuid "21344f85-1564-44b5-8f17-8964438f637e")
+	)
+	(polyline
+		(pts
+			(xy 142.494 107.442) (xy 142.494 82.55)
+		)
+		(stroke
+			(width 0.762)
+			(type solid)
+			(color 194 194 0 1)
+		)
+		(uuid "4cdc9d6b-0e0a-4d87-9c6f-5f72093df8ec")
+	)
+	(polyline
+		(pts
+			(xy 166.37 100.33) (xy 166.37 82.55)
+		)
+		(stroke
+			(width 0.762)
+			(type solid)
+			(color 194 194 0 1)
+		)
+		(uuid "60a273a6-b51f-4344-a54f-37781fdef7a9")
+	)
+	(polyline
+		(pts
+			(xy 142.494 92.964) (xy 119.888 92.964)
+		)
+		(stroke
+			(width 0.762)
+			(type solid)
+			(color 194 194 0 1)
+		)
+		(uuid "902034df-e3d0-4fc0-83da-bae1cdee6013")
+	)
+	(polyline
+		(pts
+			(xy 168.402 72.898) (xy 180.34 72.898)
+		)
+		(stroke
+			(width 0.762)
+			(type solid)
+			(color 194 194 0 1)
+		)
+		(uuid "a0658b86-ef84-41f7-9c76-e55f96e6388e")
+	)
+	(polyline
+		(pts
+			(xy 180.34 120.65) (xy 158.242 120.65)
+		)
+		(stroke
+			(width 0.762)
+			(type solid)
+			(color 194 194 0 1)
+		)
+		(uuid "bf494630-5e15-484c-a881-2646e0a60650")
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
