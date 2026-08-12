@@ -341,187 +341,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Connector:Conn_01x02_Pin"
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "J"
-				(at 0 2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Conn_01x02_Pin"
-				(at 0 -5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Generic connector, single row, 01x02, script generated"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "connector"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "Connector*:*_1x??_*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "Conn_01x02_Pin_1_1"
-				(rectangle
-					(start 0.8636 0.127)
-					(end 0 -0.127)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 0.8636 -2.413)
-					(end 0 -2.667)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy 0.8636 0)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -2.54) (xy 0.8636 -2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 3.81)
-					(name "Pin_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 -2.54 180)
-					(length 3.81)
-					(name "Pin_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Connector:USB_C_Receptacle_USB2.0_14P"
 			(pin_names
 				(offset 1.016)
@@ -4668,6 +4487,12 @@
 		(uuid "f9b524b1-cb6f-44e6-9e69-d93ffe079e12")
 	)
 	(junction
+		(at 190.5 35.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "061dc355-27f9-44fc-a69c-a7e58fae2a36")
+	)
+	(junction
 		(at 227.33 101.6)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4680,10 +4505,22 @@
 		(uuid "09f56845-a7ec-4fe2-bddc-e0ccaef6f6f3")
 	)
 	(junction
+		(at 280.67 66.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0b5a0af9-d3f0-47a6-b8cb-6446e1e6037a")
+	)
+	(junction
 		(at 245.11 80.01)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0c21e5d8-026b-4acf-9c58-5c25ea301eb0")
+	)
+	(junction
+		(at 179.07 35.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "12572ca6-5f36-4b9f-8b04-6fa45a36fda2")
 	)
 	(junction
 		(at 254 269.24)
@@ -4720,6 +4557,18 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1fae915e-5e15-4cb5-acb6-b4be851daadf")
+	)
+	(junction
+		(at 156.21 66.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "20fafcea-fd2e-4b65-be10-e6d7ea8b7412")
+	)
+	(junction
+		(at 261.62 35.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "213efc80-7706-4288-b6e3-f1904815e29f")
 	)
 	(junction
 		(at 281.94 148.59)
@@ -4780,6 +4629,18 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "34e3e9f7-232f-4f34-acab-411ee8a2f3ff")
+	)
+	(junction
+		(at 120.65 46.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3589a74c-fd10-4f52-abd7-130486370612")
+	)
+	(junction
+		(at 295.91 66.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3697a342-89ea-4114-a2ae-e93cf3e32f5a")
 	)
 	(junction
 		(at 204.47 251.46)
@@ -4854,6 +4715,18 @@
 		(uuid "59fb9b6f-5d97-4e75-8c7c-c694bb305c75")
 	)
 	(junction
+		(at 294.64 46.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "59ff55d7-e0ed-4b93-b902-524f90deeaf8")
+	)
+	(junction
+		(at 262.89 66.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5b867df6-6311-440d-8b43-a3360aafa507")
+	)
+	(junction
 		(at 236.22 265.43)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4866,10 +4739,22 @@
 		(uuid "62123484-24ca-489d-b823-59c28ed5fff5")
 	)
 	(junction
+		(at 179.07 46.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6220be97-10bb-43a5-80fb-5162d44ac183")
+	)
+	(junction
 		(at 156.21 101.6)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6a7011a9-ac25-4f60-a0a0-16089cd45349")
+	)
+	(junction
+		(at 295.91 80.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6b62417e-81be-4510-848f-063f474b919c")
 	)
 	(junction
 		(at 243.84 181.61)
@@ -4884,6 +4769,12 @@
 		(uuid "73596678-001c-4543-a8c2-8121e343245f")
 	)
 	(junction
+		(at 158.75 35.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "739d5e9a-cefa-4a17-81fe-2f3b5a7af729")
+	)
+	(junction
 		(at 236.22 269.24)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4896,6 +4787,18 @@
 		(uuid "7acf89a2-104e-438f-a9b5-f6cbbf79575b")
 	)
 	(junction
+		(at 245.11 66.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7b1d0eaf-e19f-423e-ac6b-c9f89e00c238")
+	)
+	(junction
+		(at 227.33 66.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7bb8dc8d-d08a-4b83-a894-d9223e1929b6")
+	)
+	(junction
 		(at 280.67 80.01)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4906,6 +4809,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7f9e2c78-2480-4128-85e7-37abada3cf3b")
+	)
+	(junction
+		(at 243.84 35.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8e4e998a-36d5-459c-b30b-b0ededb2414f")
 	)
 	(junction
 		(at 208.28 46.99)
@@ -4932,6 +4841,12 @@
 		(uuid "9873ddbf-52fb-49b6-93a1-e2b4c1cfb3cb")
 	)
 	(junction
+		(at 226.06 35.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "98fb34fc-f7f2-4c20-bdc1-bb20c12ff9e1")
+	)
+	(junction
 		(at 180.34 144.78)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4956,10 +4871,28 @@
 		(uuid "a017d9ca-b48a-401c-9e5d-1e47dba2450f")
 	)
 	(junction
+		(at 279.4 35.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a107bd02-1f13-4627-ab6f-1cbb2d19f97f")
+	)
+	(junction
+		(at 158.75 46.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a45d96ef-ce85-4ce6-8c72-3add862f6ded")
+	)
+	(junction
 		(at 264.16 156.21)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a535fb0d-7031-4567-ad65-cafcd4672bfa")
+	)
+	(junction
+		(at 138.43 80.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "afff7f6f-34a7-48ca-9068-57b04ba2fc81")
 	)
 	(junction
 		(at 243.84 66.04)
@@ -4980,10 +4913,22 @@
 		(uuid "bb6a2357-614c-4352-b54e-0d5235b0ab30")
 	)
 	(junction
+		(at 173.99 66.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bf653cc1-5905-4ce6-86a8-4ee79911edcf")
+	)
+	(junction
 		(at 190.5 66.04)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c26b7f4e-f8ae-47e9-955b-b4a585531fbf")
+	)
+	(junction
+		(at 208.28 35.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c2796e78-bbd9-47b2-9d9b-097427637c9a")
 	)
 	(junction
 		(at 146.05 248.92)
@@ -5020,6 +4965,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d0223079-b5f6-48eb-81e1-778d250bfe2d")
+	)
+	(junction
+		(at 209.55 66.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d1517650-9588-4125-8af3-90661e75c610")
 	)
 	(junction
 		(at 151.13 201.93)
@@ -5076,6 +5027,12 @@
 		(uuid "e916ceb3-2fab-47f1-b8c0-90d60a4c8575")
 	)
 	(junction
+		(at 191.77 66.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ea70a055-4bdb-44cc-aee1-508d4220ba60")
+	)
+	(junction
 		(at 144.78 156.21)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5092,6 +5049,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f308124a-2de6-4250-9c03-0da45d11532a")
+	)
+	(junction
+		(at 140.97 66.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f7c3ae35-1ba2-42c3-ac16-6d94221af713")
 	)
 	(junction
 		(at 173.99 80.01)
@@ -5165,6 +5128,36 @@
 	)
 	(wire
 		(pts
+			(xy 158.75 35.56) (xy 158.75 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "007da8de-a9b8-498a-9c64-ff9dc83f66f2")
+	)
+	(wire
+		(pts
+			(xy 179.07 35.56) (xy 158.75 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "00947589-ae27-4e20-849b-e8db5548488e")
+	)
+	(wire
+		(pts
+			(xy 243.84 35.56) (xy 261.62 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "022003f2-5813-4a63-8130-62cc7fc43a08")
+	)
+	(wire
+		(pts
 			(xy 173.99 82.55) (xy 173.99 80.01)
 		)
 		(stroke
@@ -5225,6 +5218,16 @@
 	)
 	(wire
 		(pts
+			(xy 120.65 46.99) (xy 127 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0589eb9f-fd9b-45a4-a3d9-0c9374a0e109")
+	)
+	(wire
+		(pts
 			(xy 180.34 196.85) (xy 180.34 198.12)
 		)
 		(stroke
@@ -5242,6 +5245,16 @@
 			(type default)
 		)
 		(uuid "06ad702a-1c54-45f9-af8e-76bf467fe7a3")
+	)
+	(wire
+		(pts
+			(xy 173.99 66.04) (xy 173.99 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "06fe1b20-45bb-42ea-ba7d-d1a1d21d8b3a")
 	)
 	(wire
 		(pts
@@ -5272,6 +5285,26 @@
 			(type default)
 		)
 		(uuid "08e8b193-4b11-45f0-ab90-b929357154c3")
+	)
+	(wire
+		(pts
+			(xy 226.06 41.91) (xy 226.06 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "098c7651-c663-4559-b762-53c2967d4b18")
+	)
+	(wire
+		(pts
+			(xy 138.43 71.12) (xy 140.97 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a36d596-a0d5-425e-bb57-4d10d782a2a3")
 	)
 	(wire
 		(pts
@@ -5325,6 +5358,16 @@
 	)
 	(wire
 		(pts
+			(xy 191.77 66.04) (xy 191.77 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0fc352c7-ee7a-47ca-a1db-6ebc12219f3e")
+	)
+	(wire
+		(pts
 			(xy 297.18 48.26) (xy 297.18 46.99)
 		)
 		(stroke
@@ -5345,6 +5388,16 @@
 	)
 	(wire
 		(pts
+			(xy 245.11 66.04) (xy 243.84 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1234aa9b-2c43-4e39-a1f0-a1d7403de3ad")
+	)
+	(wire
+		(pts
 			(xy 154.94 63.5) (xy 154.94 66.04)
 		)
 		(stroke
@@ -5352,6 +5405,36 @@
 			(type default)
 		)
 		(uuid "12a31bf5-8d4d-4196-87c4-3a7235be361c")
+	)
+	(wire
+		(pts
+			(xy 243.84 35.56) (xy 243.84 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "13bdeaac-2707-4c0a-aef1-c298d74843f3")
+	)
+	(wire
+		(pts
+			(xy 190.5 35.56) (xy 179.07 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "17506fb4-9fad-4044-82e5-b50c48d65c9b")
+	)
+	(wire
+		(pts
+			(xy 209.55 66.04) (xy 209.55 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1831b424-a0ce-4fcb-b83f-0bc3e36fe951")
 	)
 	(wire
 		(pts
@@ -5445,6 +5528,16 @@
 	)
 	(wire
 		(pts
+			(xy 191.77 66.04) (xy 190.5 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b1abe4b-23bd-4cb4-bd56-5439e68677b9")
+	)
+	(wire
+		(pts
 			(xy 297.18 63.5) (xy 297.18 66.04)
 		)
 		(stroke
@@ -5515,6 +5608,16 @@
 	)
 	(wire
 		(pts
+			(xy 156.21 66.04) (xy 154.94 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "20f688a7-3767-4339-8eff-b0c3ff457b4c")
+	)
+	(wire
+		(pts
 			(xy 227.33 97.79) (xy 227.33 101.6)
 		)
 		(stroke
@@ -5555,7 +5658,7 @@
 	)
 	(wire
 		(pts
-			(xy 208.28 66.04) (xy 190.5 66.04)
+			(xy 208.28 66.04) (xy 191.77 66.04)
 		)
 		(stroke
 			(width 0)
@@ -5725,7 +5828,7 @@
 	)
 	(wire
 		(pts
-			(xy 280.67 80.01) (xy 298.45 80.01)
+			(xy 280.67 80.01) (xy 295.91 80.01)
 		)
 		(stroke
 			(width 0)
@@ -5775,6 +5878,16 @@
 	)
 	(wire
 		(pts
+			(xy 227.33 66.04) (xy 227.33 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "39624913-dc30-4c7f-8bd3-b9c1dc07467e")
+	)
+	(wire
+		(pts
 			(xy 172.72 63.5) (xy 172.72 66.04)
 		)
 		(stroke
@@ -5802,6 +5915,16 @@
 			(type default)
 		)
 		(uuid "3b1e90f2-76d9-4243-a27c-131309e50cb1")
+	)
+	(wire
+		(pts
+			(xy 173.99 66.04) (xy 172.72 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3b9cddb4-a87c-4ba7-acb6-bb4f974393ae")
 	)
 	(wire
 		(pts
@@ -5915,6 +6038,16 @@
 	)
 	(wire
 		(pts
+			(xy 227.33 66.04) (xy 226.06 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "43ed0233-aff4-4e0d-b740-b03ed0b626e8")
+	)
+	(wire
+		(pts
 			(xy 156.21 82.55) (xy 156.21 80.01)
 		)
 		(stroke
@@ -5982,6 +6115,16 @@
 			(type default)
 		)
 		(uuid "48edd7ce-b3f2-4f5e-b61f-ead0b7192d08")
+	)
+	(wire
+		(pts
+			(xy 140.97 66.04) (xy 137.16 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "49703c0e-9a5f-4cc2-a69a-d8e0698e8695")
 	)
 	(wire
 		(pts
@@ -6225,7 +6368,7 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 46.99) (xy 190.5 46.99)
+			(xy 172.72 46.99) (xy 179.07 46.99)
 		)
 		(stroke
 			(width 0)
@@ -6315,6 +6458,16 @@
 	)
 	(wire
 		(pts
+			(xy 262.89 66.04) (xy 262.89 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "674de7f3-bf20-4f89-b3aa-7a21a322caa2")
+	)
+	(wire
+		(pts
 			(xy 274.32 265.43) (xy 276.86 265.43)
 		)
 		(stroke
@@ -6355,13 +6508,33 @@
 	)
 	(wire
 		(pts
-			(xy 243.84 66.04) (xy 226.06 66.04)
+			(xy 243.84 66.04) (xy 227.33 66.04)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "6a20904b-4706-4c3b-b870-230c4cc349c9")
+	)
+	(wire
+		(pts
+			(xy 120.65 35.56) (xy 120.65 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6e0672ae-baa3-4741-88b4-8c38dcc4a72d")
+	)
+	(wire
+		(pts
+			(xy 280.67 66.04) (xy 295.91 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f6d9903-a91f-465b-9c34-0ccc5480f478")
 	)
 	(wire
 		(pts
@@ -6385,7 +6558,7 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 66.04) (xy 137.16 66.04)
+			(xy 154.94 66.04) (xy 140.97 66.04)
 		)
 		(stroke
 			(width 0)
@@ -6395,13 +6568,23 @@
 	)
 	(wire
 		(pts
-			(xy 261.62 66.04) (xy 243.84 66.04)
+			(xy 261.62 66.04) (xy 245.11 66.04)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "7388b9f9-dd73-4572-b365-a73cc606efba")
+	)
+	(wire
+		(pts
+			(xy 261.62 35.56) (xy 279.4 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "752aa2ef-87cd-4522-a76b-5fb814938ae8")
 	)
 	(wire
 		(pts
@@ -6435,7 +6618,17 @@
 	)
 	(wire
 		(pts
-			(xy 279.4 66.04) (xy 261.62 66.04)
+			(xy 179.07 35.56) (xy 179.07 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "779c5334-f299-48ac-ac18-e908c1e5ec13")
+	)
+	(wire
+		(pts
+			(xy 279.4 66.04) (xy 262.89 66.04)
 		)
 		(stroke
 			(width 0)
@@ -6455,6 +6648,26 @@
 	)
 	(wire
 		(pts
+			(xy 120.65 46.99) (xy 120.65 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "78c977ca-d30d-4a9f-8cd3-d574a5b79b36")
+	)
+	(wire
+		(pts
+			(xy 138.43 74.93) (xy 138.43 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "793ef5f6-3a76-41ad-ba26-17f8e19e3db2")
+	)
+	(wire
+		(pts
 			(xy 151.13 200.66) (xy 151.13 201.93)
 		)
 		(stroke
@@ -6462,6 +6675,16 @@
 			(type default)
 		)
 		(uuid "7977cb8f-6214-4ab5-ba9c-7d93e727293c")
+	)
+	(wire
+		(pts
+			(xy 295.91 66.04) (xy 295.91 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "79a61122-d547-45b1-a746-4f2957310fc0")
 	)
 	(wire
 		(pts
@@ -6505,6 +6728,26 @@
 	)
 	(wire
 		(pts
+			(xy 190.5 35.56) (xy 190.5 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7d126bb0-59f0-46c5-b43a-e244d83ce1d5")
+	)
+	(wire
+		(pts
+			(xy 294.64 46.99) (xy 297.18 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e292a8c-707e-4e25-be96-442b48fa0c72")
+	)
+	(wire
+		(pts
 			(xy 118.11 55.88) (xy 121.92 55.88)
 		)
 		(stroke
@@ -6512,6 +6755,16 @@
 			(type default)
 		)
 		(uuid "7e410c4d-364e-4a5c-b5f3-93ceb56633d3")
+	)
+	(wire
+		(pts
+			(xy 245.11 66.04) (xy 245.11 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e8c6280-d5ae-4279-b2a2-b6b558dda310")
 	)
 	(wire
 		(pts
@@ -6555,7 +6808,17 @@
 	)
 	(wire
 		(pts
-			(xy 279.4 46.99) (xy 297.18 46.99)
+			(xy 261.62 41.91) (xy 261.62 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "83c82aad-1b47-4af4-814d-8d3319a450b2")
+	)
+	(wire
+		(pts
+			(xy 279.4 46.99) (xy 294.64 46.99)
 		)
 		(stroke
 			(width 0)
@@ -6612,6 +6875,16 @@
 			(type default)
 		)
 		(uuid "882c1297-7ce0-4e2e-b34f-eeacf14c31d3")
+	)
+	(wire
+		(pts
+			(xy 158.75 46.99) (xy 172.72 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "88f1322b-2dc9-49c3-9866-df8ac4056616")
 	)
 	(wire
 		(pts
@@ -6735,6 +7008,16 @@
 	)
 	(wire
 		(pts
+			(xy 208.28 35.56) (xy 226.06 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9342af5a-fd9d-455c-a292-4b97cc1aafbd")
+	)
+	(wire
+		(pts
 			(xy 259.08 140.97) (xy 270.51 140.97)
 		)
 		(stroke
@@ -6802,6 +7085,16 @@
 			(type default)
 		)
 		(uuid "9ae2c405-1254-49d3-a6e9-d40554883545")
+	)
+	(wire
+		(pts
+			(xy 158.75 35.56) (xy 120.65 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9be0faea-1c23-44df-9a91-e47879d78c58")
 	)
 	(wire
 		(pts
@@ -6915,6 +7208,16 @@
 	)
 	(wire
 		(pts
+			(xy 262.89 66.04) (xy 261.62 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a403ac82-e77c-4ffd-8be4-4ce71dc6b690")
+	)
+	(wire
+		(pts
 			(xy 144.78 146.05) (xy 144.78 148.59)
 		)
 		(stroke
@@ -6955,7 +7258,7 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 66.04) (xy 154.94 66.04)
+			(xy 172.72 66.04) (xy 156.21 66.04)
 		)
 		(stroke
 			(width 0)
@@ -6995,7 +7298,7 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 66.04) (xy 172.72 66.04)
+			(xy 190.5 66.04) (xy 173.99 66.04)
 		)
 		(stroke
 			(width 0)
@@ -7045,6 +7348,16 @@
 	)
 	(wire
 		(pts
+			(xy 226.06 35.56) (xy 243.84 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b261caaa-ab7f-4af2-a632-a146e05b5107")
+	)
+	(wire
+		(pts
 			(xy 298.45 77.47) (xy 298.45 80.01)
 		)
 		(stroke
@@ -7072,6 +7385,16 @@
 			(type default)
 		)
 		(uuid "b336d623-add3-4d1d-8319-0ffe2ab8f61c")
+	)
+	(wire
+		(pts
+			(xy 279.4 35.56) (xy 294.64 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b3d6d698-298e-446c-91bf-81dec63bfe5d")
 	)
 	(wire
 		(pts
@@ -7155,6 +7478,16 @@
 	)
 	(wire
 		(pts
+			(xy 209.55 66.04) (xy 208.28 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b8f869fc-2012-4d57-80dd-18ee85c0a082")
+	)
+	(wire
+		(pts
 			(xy 181.61 90.17) (xy 184.15 90.17)
 		)
 		(stroke
@@ -7195,7 +7528,7 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 46.99) (xy 172.72 46.99)
+			(xy 154.94 46.99) (xy 158.75 46.99)
 		)
 		(stroke
 			(width 0)
@@ -7315,6 +7648,16 @@
 	)
 	(wire
 		(pts
+			(xy 132.08 46.99) (xy 137.16 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c7c8a7a4-28b2-4fac-9da1-028a6a9b42e1")
+	)
+	(wire
+		(pts
 			(xy 195.58 156.21) (xy 201.93 156.21)
 		)
 		(stroke
@@ -7345,6 +7688,16 @@
 	)
 	(wire
 		(pts
+			(xy 140.97 71.12) (xy 140.97 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c9cccdbd-bda5-4050-9f04-26b8862137f3")
+	)
+	(wire
+		(pts
 			(xy 247.65 273.05) (xy 248.92 273.05)
 		)
 		(stroke
@@ -7362,6 +7715,16 @@
 			(type default)
 		)
 		(uuid "cb84db99-3490-4148-b40c-50e70282066e")
+	)
+	(wire
+		(pts
+			(xy 295.91 80.01) (xy 298.45 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cce1a0bd-6b5b-42d8-ad06-8da0cc21968f")
 	)
 	(wire
 		(pts
@@ -7475,6 +7838,16 @@
 	)
 	(wire
 		(pts
+			(xy 208.28 35.56) (xy 208.28 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d925d197-719a-4b02-90b5-523664ebeb1e")
+	)
+	(wire
+		(pts
 			(xy 252.73 90.17) (xy 255.27 90.17)
 		)
 		(stroke
@@ -7492,6 +7865,16 @@
 			(type default)
 		)
 		(uuid "d95e1dc6-482b-4fde-8b14-9eafe62f3a95")
+	)
+	(wire
+		(pts
+			(xy 279.4 35.56) (xy 279.4 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db7cfaeb-8949-4970-9bae-c6cf1790cbc2")
 	)
 	(wire
 		(pts
@@ -7585,7 +7968,7 @@
 	)
 	(wire
 		(pts
-			(xy 297.18 66.04) (xy 279.4 66.04)
+			(xy 279.4 66.04) (xy 280.67 66.04)
 		)
 		(stroke
 			(width 0)
@@ -7645,6 +8028,16 @@
 	)
 	(wire
 		(pts
+			(xy 179.07 46.99) (xy 190.5 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb77f964-4164-4a3d-92c6-1fbb00820535")
+	)
+	(wire
+		(pts
 			(xy 246.38 217.17) (xy 247.65 217.17)
 		)
 		(stroke
@@ -7665,6 +8058,16 @@
 	)
 	(wire
 		(pts
+			(xy 156.21 66.04) (xy 156.21 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ecc95c16-6d1c-4659-89aa-c0a5510de16f")
+	)
+	(wire
+		(pts
 			(xy 236.22 265.43) (xy 236.22 269.24)
 		)
 		(stroke
@@ -7672,6 +8075,16 @@
 			(type default)
 		)
 		(uuid "ed369c22-5ac2-4844-bd86-01ba2216c2fb")
+	)
+	(wire
+		(pts
+			(xy 295.91 66.04) (xy 297.18 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed6deb46-e1a1-4242-ba21-b42cf520acc0")
 	)
 	(wire
 		(pts
@@ -7785,7 +8198,7 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 66.04) (xy 208.28 66.04)
+			(xy 226.06 66.04) (xy 209.55 66.04)
 		)
 		(stroke
 			(width 0)
@@ -7802,6 +8215,16 @@
 			(type default)
 		)
 		(uuid "f87da8bd-dca2-4fbb-8119-ef024cb58701")
+	)
+	(wire
+		(pts
+			(xy 280.67 74.93) (xy 280.67 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f8896a39-4db2-4677-a98b-5b2014bfd2c6")
 	)
 	(wire
 		(pts
@@ -7832,6 +8255,26 @@
 			(type default)
 		)
 		(uuid "f9b375f1-ca66-4ac1-abad-0f726cd63a86")
+	)
+	(wire
+		(pts
+			(xy 294.64 41.91) (xy 294.64 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa23ca94-eafd-49e5-862b-99c3f629bfd9")
+	)
+	(wire
+		(pts
+			(xy 208.28 35.56) (xy 190.5 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa740af6-f0d6-4bc2-93c5-3327aaa87359")
 	)
 	(wire
 		(pts
@@ -8246,7 +8689,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 236.22 232.41 0)
 			(hide yes)
 			(show_name no)
@@ -8428,7 +8871,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm"
 			(at 204.47 238.76 0)
 			(hide yes)
 			(show_name no)
@@ -8597,7 +9040,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Buzzer_Beeper:Buzzer_12x9.5RM7.6"
 			(at 244.475 217.17 90)
 			(hide yes)
 			(show_name no)
@@ -8676,7 +9119,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm"
 			(at 119.38 184.15 0)
 			(hide yes)
 			(show_name no)
@@ -8902,6 +9345,88 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Small")
+		(at 245.11 77.47 0)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "1ec2bde0-e665-4c70-b40b-cf6893985d27")
+		(property "Reference" "C16"
+			(at 245.618 75.438 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 247.142 77.724 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 245.11 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 245.11 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 245.11 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "afe5f8bb-415b-44e2-9154-0446ab59040b")
+		)
+		(pin "2"
+			(uuid "fad3d0b2-8686-487c-bf0e-e89f80596717")
+		)
+		(instances
+			(project "Smart_Bed_Lamp"
+				(path "/2ca7544d-668c-40fa-946e-9e21d2c82c33"
+					(reference "C16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 281.94 149.86 0)
 		(mirror y)
@@ -9112,6 +9637,88 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Small")
+		(at 262.89 77.47 0)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "2974e7b0-a6cb-45fd-b5ec-e693d09d408a")
+		(property "Reference" "C17"
+			(at 263.398 75.438 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 264.922 77.724 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 262.89 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 262.89 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 262.89 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e44870d2-493d-4fb3-a5e3-93016d6f04a3")
+		)
+		(pin "2"
+			(uuid "70ad4dac-d042-4638-a983-6c5517de16ea")
+		)
+		(instances
+			(project "Smart_Bed_Lamp"
+				(path "/2ca7544d-668c-40fa-946e-9e21d2c82c33"
+					(reference "C17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "LED:WS2812B")
 		(at 227.33 90.17 0)
 		(unit 1)
@@ -9229,7 +9836,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm"
 			(at 229.87 273.05 0)
 			(hide yes)
 			(show_name no)
@@ -9356,6 +9963,88 @@
 			(project "Smart_Bed_Lamp"
 				(path "/2ca7544d-668c-40fa-946e-9e21d2c82c33"
 					(reference "D2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 173.99 77.47 0)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "304f3625-07a0-4f8f-ac93-30aff33a5996")
+		(property "Reference" "C12"
+			(at 174.498 75.438 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 176.022 77.724 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 173.99 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 173.99 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 173.99 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9de795f3-d2aa-4d98-abd4-4ab1e0cbb804")
+		)
+		(pin "2"
+			(uuid "217b440c-7703-4fcf-9703-c6328e000206")
+		)
+		(instances
+			(project "Smart_Bed_Lamp"
+				(path "/2ca7544d-668c-40fa-946e-9e21d2c82c33"
+					(reference "C12")
 					(unit 1)
 				)
 			)
@@ -9551,7 +10240,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 175.26 140.97 0)
 			(hide yes)
 			(show_name no)
@@ -9711,7 +10400,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 124.46 237.49 0)
 			(hide yes)
 			(show_name no)
@@ -9790,7 +10479,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 274.32 148.59 0)
 			(hide yes)
 			(show_name no)
@@ -9833,6 +10522,88 @@
 			(project "Smart_Bed_Lamp"
 				(path "/2ca7544d-668c-40fa-946e-9e21d2c82c33"
 					(reference "R5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 243.84 44.45 0)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "3c657915-0c25-4788-8746-d2799b2bc772")
+		(property "Reference" "C26"
+			(at 244.348 42.418 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 245.872 44.704 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 243.84 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 243.84 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 243.84 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "86b6612b-1c68-4016-8e2f-a44db5ba53db")
+		)
+		(pin "2"
+			(uuid "abc06f2a-3676-48e6-90d9-14bcb7740fb4")
+		)
+		(instances
+			(project "Smart_Bed_Lamp"
+				(path "/2ca7544d-668c-40fa-946e-9e21d2c82c33"
+					(reference "C26")
 					(unit 1)
 				)
 			)
@@ -9910,6 +10681,87 @@
 			(project "Smart_Bed_Lamp"
 				(path "/2ca7544d-668c-40fa-946e-9e21d2c82c33"
 					(reference "#PWR017")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 294.64 44.45 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "470f72d2-9825-41e3-9fea-246886cfa0f8")
+		(property "Reference" "C29"
+			(at 293.624 39.878 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 292.1 42.164 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 294.64 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 294.64 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 294.64 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "bca31890-1034-4485-a09e-26e21c757361")
+		)
+		(pin "2"
+			(uuid "03712821-8e34-48c8-9582-521712afb100")
+		)
+		(instances
+			(project "Smart_Bed_Lamp"
+				(path "/2ca7544d-668c-40fa-946e-9e21d2c82c33"
+					(reference "C29")
 					(unit 1)
 				)
 			)
@@ -10112,7 +10964,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm"
 			(at 260.35 273.05 0)
 			(hide yes)
 			(show_name no)
@@ -10266,7 +11118,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_BarrelJack:BarrelJack_CLIFF_FC681465S_SMT_Horizontal"
 			(at 267.97 177.546 0)
 			(hide yes)
 			(show_name no)
@@ -10347,7 +11199,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 144.78 162.56 0)
 			(hide yes)
 			(show_name no)
@@ -10600,7 +11452,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm"
 			(at 242.57 273.05 0)
 			(hide yes)
 			(show_name no)
@@ -10676,7 +11528,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm"
 			(at 269.24 273.05 0)
 			(hide yes)
 			(show_name no)
@@ -10832,7 +11684,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
 			(at 146.05 195.58 0)
 			(hide yes)
 			(show_name no)
@@ -11045,6 +11897,88 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Small")
+		(at 138.43 77.47 0)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "6cffe199-b85c-48c8-95b3-b1110450a011")
+		(property "Reference" "C10"
+			(at 138.938 75.438 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 140.462 77.724 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 138.43 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 138.43 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 138.43 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "568738c9-92dc-4934-87a5-bfc3dad8eef1")
+		)
+		(pin "2"
+			(uuid "86cc89ac-885c-438d-ac8f-47d0aa3624f2")
+		)
+		(instances
+			(project "Smart_Bed_Lamp"
+				(path "/2ca7544d-668c-40fa-946e-9e21d2c82c33"
+					(reference "C10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "LED:WS2812B")
 		(at 261.62 55.88 0)
 		(unit 1)
@@ -11209,6 +12143,170 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Small")
+		(at 280.67 77.47 0)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "7a1dabaa-4574-466d-a760-be71b2336349")
+		(property "Reference" "C18"
+			(at 281.178 75.438 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 282.702 77.724 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 280.67 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 280.67 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 280.67 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "372bf3f5-33e3-498f-9b9d-28133dd52423")
+		)
+		(pin "2"
+			(uuid "b3f04c87-b83e-451e-920e-2e9d7d34c403")
+		)
+		(instances
+			(project "Smart_Bed_Lamp"
+				(path "/2ca7544d-668c-40fa-946e-9e21d2c82c33"
+					(reference "C18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 158.75 44.45 0)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "7c1cf92f-81fa-470f-b454-6f614f1881e2")
+		(property "Reference" "C21"
+			(at 159.258 42.418 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 160.782 44.704 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 158.75 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 158.75 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 158.75 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d1b834f2-8a1d-4b27-92dc-06e576ad7f5d")
+		)
+		(pin "2"
+			(uuid "716b2c84-99ab-4b71-b477-f8bfaac1c9a8")
+		)
+		(instances
+			(project "Smart_Bed_Lamp"
+				(path "/2ca7544d-668c-40fa-946e-9e21d2c82c33"
+					(reference "C21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Switch:SW_Push")
 		(at 127 162.56 90)
 		(unit 1)
@@ -11241,7 +12339,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
 			(at 121.92 162.56 0)
 			(hide yes)
 			(show_name no)
@@ -11571,7 +12669,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm"
 			(at 269.24 269.24 0)
 			(hide yes)
 			(show_name no)
@@ -11650,7 +12748,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 194.31 236.22 0)
 			(hide yes)
 			(show_name no)
@@ -11693,6 +12791,165 @@
 			(project "Smart_Bed_Lamp"
 				(path "/2ca7544d-668c-40fa-946e-9e21d2c82c33"
 					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Pin")
+		(at 207.01 156.21 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "886756c3-65b2-4225-97c0-927e1ee6d0d9")
+		(property "Reference" "J14"
+			(at 207.772 152.4 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "RX"
+			(at 208.026 154.178 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm"
+			(at 207.01 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 207.01 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 207.01 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3842aaef-51a9-4051-8cdb-36670926d09b")
+		)
+		(instances
+			(project "Smart_Bed_Lamp"
+				(path "/2ca7544d-668c-40fa-946e-9e21d2c82c33"
+					(reference "J14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 261.62 44.45 0)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "89438b43-3de3-4004-9557-f2526a5dd0a2")
+		(property "Reference" "C27"
+			(at 262.128 42.418 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 263.652 44.704 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 261.62 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 261.62 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 261.62 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7b6873ef-f9b9-4a75-afdc-e2282ed3c1d8")
+		)
+		(pin "2"
+			(uuid "86f71a5b-3fa8-43f3-bbf1-f2758e1cc0a9")
+		)
+		(instances
+			(project "Smart_Bed_Lamp"
+				(path "/2ca7544d-668c-40fa-946e-9e21d2c82c33"
+					(reference "C27")
 					(unit 1)
 				)
 			)
@@ -11776,8 +13033,9 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x02_Pin")
-		(at 207.01 158.75 180)
+		(lib_id "Device:C_Small")
+		(at 226.06 44.45 0)
+		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11785,32 +13043,31 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8ee6fb46-5927-419a-b8c6-684c908b1a87")
-		(property "Reference" "J14"
-			(at 208.28 156.2099 0)
+		(uuid "8b32849b-89d2-4125-b3f9-f9c88ed95daf")
+		(property "Reference" "C25"
+			(at 226.568 42.418 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Value" "RX/TX"
-			(at 208.28 158.7499 0)
+		(property "Value" "100nF"
+			(at 228.092 44.704 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 207.01 158.75 0)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 226.06 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11821,7 +13078,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 207.01 158.75 0)
+			(at 226.06 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11831,8 +13088,8 @@
 				)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 207.01 158.75 0)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 226.06 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11841,17 +13098,17 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
-		(pin "2"
-			(uuid "339890b9-cf4c-474d-be86-21fb9ecee232")
 		)
 		(pin "1"
-			(uuid "116401bb-a025-4eae-8e49-bcb70c06fba6")
+			(uuid "ff0c8aae-e7ac-4b8e-9fb3-0237735ceb1f")
+		)
+		(pin "2"
+			(uuid "2b2dd7cf-1f5f-4068-a1bc-44f3dcd10732")
 		)
 		(instances
 			(project "Smart_Bed_Lamp"
 				(path "/2ca7544d-668c-40fa-946e-9e21d2c82c33"
-					(reference "J14")
+					(reference "C25")
 					(unit 1)
 				)
 			)
@@ -11975,7 +13232,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm"
 			(at 242.57 265.43 0)
 			(hide yes)
 			(show_name no)
@@ -12108,6 +13365,83 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:Conn_01x01_Pin")
+		(at 207.01 158.75 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "960634af-3029-4348-a7a4-5d3ab0dc7b44")
+		(property "Reference" "J19"
+			(at 207.01 160.528 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TX"
+			(at 207.264 162.306 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm"
+			(at 207.01 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 207.01 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 207.01 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0d564a01-b02f-4eac-b722-9122b41a00f2")
+		)
+		(instances
+			(project "Smart_Bed_Lamp"
+				(path "/2ca7544d-668c-40fa-946e-9e21d2c82c33"
+					(reference "J19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small")
 		(at 269.24 146.05 90)
 		(unit 1)
@@ -12138,7 +13472,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 269.24 146.05 0)
 			(hide yes)
 			(show_name no)
@@ -12537,6 +13871,88 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Small")
+		(at 156.21 77.47 0)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "9c469c7a-5ab7-4ef2-b46a-ac6bd145e54e")
+		(property "Reference" "C11"
+			(at 156.718 75.438 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 158.242 77.724 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 156.21 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 156.21 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 156.21 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b3a0e013-4edc-4a6a-8055-380588d14ad7")
+		)
+		(pin "2"
+			(uuid "96b9e7d2-435f-46f8-baf1-a0bb9f9de4d8")
+		)
+		(instances
+			(project "Smart_Bed_Lamp"
+				(path "/2ca7544d-668c-40fa-946e-9e21d2c82c33"
+					(reference "C11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Regulator_Linear:AMS1117-3.3")
 		(at 287.02 218.44 0)
 		(unit 1)
@@ -12653,7 +14069,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 175.26 144.78 0)
 			(hide yes)
 			(show_name no)
@@ -12789,6 +14205,83 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 120.65 49.53 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "9fd63474-d5ff-49dc-95c6-982b99208251")
+		(property "Reference" "#PWR018"
+			(at 120.65 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 117.094 52.07 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 120.65 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 120.65 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 120.65 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "eeda0beb-3efa-4047-9e08-a6bc68f4ce1e")
+		)
+		(instances
+			(project "Smart_Bed_Lamp"
+				(path "/2ca7544d-668c-40fa-946e-9e21d2c82c33"
+					(reference "#PWR018")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "LED:WS2812B")
 		(at 243.84 55.88 0)
 		(unit 1)
@@ -12877,6 +14370,88 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
+		(at 190.5 44.45 0)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "a0fbbcf4-b620-4b94-97fa-66c1ad81cdcc")
+		(property "Reference" "C23"
+			(at 191.008 42.418 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 192.532 44.704 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 190.5 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 190.5 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 190.5 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6c46ae3c-9d7d-4def-96a2-1a979e4bff3e")
+		)
+		(pin "2"
+			(uuid "6e17eb38-f90c-47ff-905a-8c57b64df72a")
+		)
+		(instances
+			(project "Smart_Bed_Lamp"
+				(path "/2ca7544d-668c-40fa-946e-9e21d2c82c33"
+					(reference "C23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
 		(at 128.27 237.49 180)
 		(unit 1)
 		(body_style 1)
@@ -12908,7 +14483,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 128.27 237.49 0)
 			(hide yes)
 			(show_name no)
@@ -12990,7 +14565,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 194.31 247.65 0)
 			(hide yes)
 			(show_name no)
@@ -13070,7 +14645,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_USB:USB_C_Receptacle_G-Switch_GT-USB-7010ASV"
 			(at 247.65 156.21 0)
 			(hide yes)
 			(show_name no)
@@ -13188,7 +14763,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm"
 			(at 260.35 269.24 0)
 			(hide yes)
 			(show_name no)
@@ -13234,6 +14809,88 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Small")
+		(at 279.4 44.45 0)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "a94888d1-1f28-44cf-907c-e495f5d691ba")
+		(property "Reference" "C28"
+			(at 279.908 42.418 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 281.432 44.704 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 279.4 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 279.4 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 279.4 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5b9d15e3-1a66-49c0-88b3-3dd75679c823")
+		)
+		(pin "2"
+			(uuid "e31a3930-a778-41d6-b705-14f93838a1a4")
+		)
+		(instances
+			(project "Smart_Bed_Lamp"
+				(path "/2ca7544d-668c-40fa-946e-9e21d2c82c33"
+					(reference "C28")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small")
 		(at 124.46 55.88 90)
 		(unit 1)
@@ -13265,7 +14922,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 124.46 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -13395,6 +15052,88 @@
 			(project "Smart_Bed_Lamp"
 				(path "/2ca7544d-668c-40fa-946e-9e21d2c82c33"
 					(reference "D3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 209.55 77.47 0)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ad4d59b9-1617-4c58-9e0e-0ce7710a6068")
+		(property "Reference" "C14"
+			(at 210.058 75.438 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 211.582 77.724 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 209.55 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 209.55 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 209.55 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0d357bbd-8f87-42b0-a6eb-fd2059f77c23")
+		)
+		(pin "2"
+			(uuid "51111368-ef91-42b4-8a68-8e1d54d504bb")
+		)
+		(instances
+			(project "Smart_Bed_Lamp"
+				(path "/2ca7544d-668c-40fa-946e-9e21d2c82c33"
+					(reference "C14")
 					(unit 1)
 				)
 			)
@@ -13586,7 +15325,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_10.4x10.4_H4.8"
 			(at 187.96 232.41 0)
 			(hide yes)
 			(show_name no)
@@ -13667,7 +15406,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
 			(at 123.19 190.5 0)
 			(hide yes)
 			(show_name no)
@@ -13961,6 +15700,88 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Small")
+		(at 179.07 44.45 0)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "be350ff8-3e6a-440e-8546-75ab2f3ea530")
+		(property "Reference" "C22"
+			(at 179.578 42.418 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 181.102 44.704 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 179.07 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 179.07 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 179.07 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7701d33b-8f2c-459c-a729-9ca207156154")
+		)
+		(pin "2"
+			(uuid "a3b94d2c-df07-4dc8-a0bd-b3c5eb5d81f7")
+		)
+		(instances
+			(project "Smart_Bed_Lamp"
+				(path "/2ca7544d-668c-40fa-946e-9e21d2c82c33"
+					(reference "C22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:Conn_01x01_Pin")
 		(at 229.87 269.24 0)
 		(unit 1)
@@ -13991,7 +15812,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm"
 			(at 229.87 269.24 0)
 			(hide yes)
 			(show_name no)
@@ -14146,7 +15967,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 151.13 175.26 0)
 			(hide yes)
 			(show_name no)
@@ -14189,6 +16010,88 @@
 			(project "Smart_Bed_Lamp"
 				(path "/2ca7544d-668c-40fa-946e-9e21d2c82c33"
 					(reference "R9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 227.33 77.47 0)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "cb1c33da-a8f4-4ec6-9274-b39a2ed3760a")
+		(property "Reference" "C15"
+			(at 227.838 75.438 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 229.362 77.724 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 227.33 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 227.33 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 227.33 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "92d5e5bd-ac74-4240-ac8f-10f8f6812d0f")
+		)
+		(pin "2"
+			(uuid "446fb0c8-88aa-4fbc-9dd5-0bc32786a319")
+		)
+		(instances
+			(project "Smart_Bed_Lamp"
+				(path "/2ca7544d-668c-40fa-946e-9e21d2c82c33"
+					(reference "C15")
 					(unit 1)
 				)
 			)
@@ -14269,6 +16172,170 @@
 			(project "Smart_Bed_Lamp"
 				(path "/2ca7544d-668c-40fa-946e-9e21d2c82c33"
 					(reference "D24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 129.54 46.99 270)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "d249208e-6ee1-4186-9445-6810b64afb61")
+		(property "Reference" "C20"
+			(at 127.508 46.482 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 129.794 44.958 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 129.54 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 129.54 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 129.54 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "64ae305c-e6fb-49ea-91c2-1dedc30b5b98")
+		)
+		(pin "2"
+			(uuid "a119addc-1ee0-4b82-bb0a-97e825e41f72")
+		)
+		(instances
+			(project "Smart_Bed_Lamp"
+				(path "/2ca7544d-668c-40fa-946e-9e21d2c82c33"
+					(reference "C20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 191.77 77.47 0)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "d31e2922-0f56-48d7-b794-e5585e9d88a8")
+		(property "Reference" "C13"
+			(at 192.278 75.438 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 193.802 77.724 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 191.77 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 191.77 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 191.77 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4518130b-564a-4c14-a3a9-f6f8a6808f1d")
+		)
+		(pin "2"
+			(uuid "688544db-ed2e-4642-adb7-e4e1750316dc")
+		)
+		(instances
+			(project "Smart_Bed_Lamp"
+				(path "/2ca7544d-668c-40fa-946e-9e21d2c82c33"
+					(reference "C13")
 					(unit 1)
 				)
 			)
@@ -14383,7 +16450,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm"
 			(at 269.24 265.43 0)
 			(hide yes)
 			(show_name no)
@@ -14461,7 +16528,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 144.78 151.13 0)
 			(hide yes)
 			(show_name no)
@@ -14510,6 +16577,88 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Small")
+		(at 208.28 44.45 0)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "dfe259e0-43a0-4bc8-834c-fee349a2983c")
+		(property "Reference" "C24"
+			(at 208.788 42.418 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 210.312 44.704 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 208.28 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 208.28 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 208.28 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2d12564b-eac2-4f34-8e40-2baf8f55b3c8")
+		)
+		(pin "2"
+			(uuid "8125242e-b55e-4e93-82a6-f294d21fee30")
+		)
+		(instances
+			(project "Smart_Bed_Lamp"
+				(path "/2ca7544d-668c-40fa-946e-9e21d2c82c33"
+					(reference "C24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:Conn_01x01_Pin")
 		(at 146.05 181.61 0)
 		(unit 1)
@@ -14540,7 +16689,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm"
 			(at 146.05 181.61 0)
 			(hide yes)
 			(show_name no)
@@ -14616,7 +16765,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm"
 			(at 242.57 269.24 0)
 			(hide yes)
 			(show_name no)
@@ -14694,7 +16843,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 146.05 195.58 0)
 			(hide yes)
 			(show_name no)
@@ -14824,6 +16973,87 @@
 			(project "Smart_Bed_Lamp"
 				(path "/2ca7544d-668c-40fa-946e-9e21d2c82c33"
 					(reference "D6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 295.91 77.47 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "e22abba0-c938-42ef-a649-9a3237a8d60c")
+		(property "Reference" "C19"
+			(at 295.402 72.644 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 293.878 74.93 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 295.91 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 295.91 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 295.91 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4574415b-59a1-40f6-bacc-d34875634871")
+		)
+		(pin "2"
+			(uuid "33783d95-f144-412a-b62a-c7ec7b026c63")
+		)
+		(instances
+			(project "Smart_Bed_Lamp"
+				(path "/2ca7544d-668c-40fa-946e-9e21d2c82c33"
+					(reference "C19")
 					(unit 1)
 				)
 			)
@@ -15025,7 +17255,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm"
 			(at 269.24 276.86 0)
 			(hide yes)
 			(show_name no)
@@ -15291,7 +17521,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 166.37 232.41 0)
 			(hide yes)
 			(show_name no)
@@ -15372,7 +17602,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 128.27 180.34 0)
 			(hide yes)
 			(show_name no)
@@ -15451,7 +17681,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm"
 			(at 229.87 265.43 0)
 			(hide yes)
 			(show_name no)
@@ -15607,7 +17837,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:CP_Radial_D8.0mm_P3.50mm"
 			(at 215.9 243.84 0)
 			(hide yes)
 			(show_name no)
@@ -15764,7 +17994,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm"
 			(at 260.35 265.43 0)
 			(hide yes)
 			(show_name no)
@@ -15889,280 +18119,6 @@
 					(unit 1)
 				)
 			)
-		)
-	)
-	(group ""
-		(uuid "4af12bc5-6471-4f41-8649-715daa32b651")
-		(members "00f91cbf-9764-43be-9cbf-2c1192daa148" "0693b591-7f3f-45c8-9561-4f3ca5669c17"
-			"06ad702a-1c54-45f9-af8e-76bf467fe7a3" "0e6b014b-87e9-4fa3-8d86-ed405b4b6810"
-			"15467c81-2b4a-4d65-85d3-d0bb68f55c76" "1691b0e2-5085-402c-aaf8-3fb4d4ea8aec"
-			"17e57577-9530-499b-9beb-3c9463dd68cd" "18f1d95a-d133-4dc2-acee-3db595855481"
-			"1a004867-cfeb-4e9a-b51d-5b9ea78ad743" "22a176b1-df23-45be-b033-e07236f7a443"
-			"22b0fa42-ba64-4b92-8df4-4d2cce406fa5" "26b5219f-b777-4fbb-8ac4-fccd113581b0"
-			"2a145112-6188-4790-8706-8dfe52613580" "2dd683f5-4c20-4d25-9b08-3745a329ee96"
-			"3351d411-4a28-4dc4-8a4a-1790e841d739" "33f24bd1-63db-4962-888d-4e9936fbc7ea"
-			"39483d15-575f-4c26-ac9c-355f8c97667b" "3bac3249-a382-4db6-b1c1-62e0cfb146f1"
-			"3d816975-ea31-445c-9f2d-7a05a0799739" "3ed34170-c920-4de6-a929-d4f40a219596"
-			"3f8105a2-b763-4458-9216-9a2a72162ade" "3fdff128-99ed-4bb6-85c7-df587ebee306"
-			"425c450a-01b2-4b41-b67b-f44e45ef7b9a" "4277c092-e50c-4db9-87ae-6760856a311c"
-			"4399281d-63a5-4dbf-ba12-6cd497416fb9" "474db31c-62fb-4eb1-8fed-7583c23ae71f"
-			"49c4f490-4bc3-457d-b354-988081dce988" "4a9af432-65a3-4da1-bad6-3a0115932ed5"
-			"52664a08-e211-4530-ae26-8be97c047a7d" "527b3014-4eee-470e-8a99-bc2af089ade1"
-			"52d24c7a-e3e3-4be8-94ac-b06ccb436eec" "5608fdd8-170e-479e-97e4-aac609291029"
-			"58b0a5ce-c266-4370-b8cd-f809a5895891" "59e96c1a-3ab3-4156-b360-e954e7775d83"
-			"5b25e3e7-894a-4527-b41f-a1bf2baef2ce" "5cd93847-b8a6-4f5a-8476-7f2cdaf4d5c9"
-			"5ec9143e-e34d-471a-808a-de332ad06651" "63844885-fbdc-45f3-af90-e1864ce0460d"
-			"6559447b-5980-407f-b8cd-2954f38d5876" "65a8084b-8c3b-4698-9f16-2a4bc0f62f5e"
-			"65b7a0d9-f75c-49ff-b240-598e2509f604" "669202ed-8731-4f0b-8207-1118dbf04f68"
-			"7693fd68-f416-445b-8ffe-f85123f655f2" "78b7d09b-87fa-4ba6-b60f-89fa67907844"
-			"7977cb8f-6214-4ab5-ba9c-7d93e727293c" "7b848a14-9025-497b-ada1-773827d01033"
-			"7d7696b5-8bec-498e-8feb-4e97ec70d004" "7f9e2c78-2480-4128-85e7-37abada3cf3b"
-			"86077499-67c3-4f38-a538-b9e15ecc7b53" "86bc75ae-fa79-4740-b4c2-70e2f967d0e4"
-			"8b05699e-5fbc-4b35-ac09-9c4dc8a9d777" "8ee6fb46-5927-419a-b8c6-684c908b1a87"
-			"961c3964-b2d7-4276-b317-a805fc7f4975" "994420f4-d659-4db5-bcfc-00fe4537f577"
-			"99c8f4b3-96e1-4a51-9709-2d1f6abe3582" "99f70bbc-e9ed-4159-aa57-a1b1065251bc"
-			"9bd7788e-8598-4881-bae9-bd33e1b15c9a" "9f93f16f-83b1-4e54-b33e-ba8571e1ac28"
-			"a0c237d6-b55b-45a0-91b2-ca8c8f92d180" "a31274e3-cf0e-4eb4-bd7a-b5c6e697ee50"
-			"a5e7baad-2b29-4956-a6dc-cd05d8caa37c" "a72f18c6-1582-4c6e-a674-16a35c745ef1"
-			"a80625be-980b-4a62-8acf-ff3c73cdf499" "a982ad73-d007-4018-b236-5c2aa3d560ea"
-			"aa91a483-79df-486e-8daa-a2ea9b698762" "ab8dda2f-5c77-4224-bcf9-4d10fd18c6d6"
-			"add0d0bf-03c9-4f36-8a57-5d6718daba8d" "b4678626-a4a6-47aa-ab57-04ce80dd0cff"
-			"b4a361de-24e9-4b93-a9c0-c495911a6ebd" "b51f97ed-4fcb-4643-bbc2-808b3f505a9c"
-			"b57ca631-490c-4eff-868e-ff1c582b7482" "ba43d836-64fd-4ebf-872b-3ad2a92a95bb"
-			"bb6a2357-614c-4352-b54e-0d5235b0ab30" "be2d75a9-a694-47f3-8969-ebef218e16c1"
-			"c03dc247-f41d-4321-bb9e-852cd0e24f79" "c218b6bc-1941-4a78-94e4-6d4814ac064c"
-			"c21ac727-dc0b-474f-b539-a757b860b47f" "c28a760d-a12e-4852-858e-dad4591ec30f"
-			"c6f75f76-a0b7-46bf-bc98-28bd6aeeb14c" "c8b9360b-b018-4c89-8681-b5e5976c9257"
-			"c9eecb8b-d24d-4a28-bb22-f133f5ddc5c9" "ca3d8c56-2cdc-4c1c-a142-9d435304c19f"
-			"cb1bf8a9-5e4c-4f85-922f-d9d2c4e2cb3b" "cb84db99-3490-4148-b40c-50e70282066e"
-			"cd7c2e75-ba29-49d3-9269-b09222271765" "cddb3226-f396-4151-ab14-e2c40a9ccdc6"
-			"cf0b0d1d-38fc-4936-a3bf-a6392c66e502" "d2a64cd0-1879-42ec-ab8d-50e7ea21d660"
-			"d2f5ec0b-58be-4da8-881f-3cf3c6429592" "d4dbb105-83eb-4e85-9622-f9298a3658e9"
-			"d5b46bc6-fc7e-4a76-9032-c4792b086280" "d87cd59e-3d2c-4af2-8804-28e7eb9d1766"
-			"d9fecf92-1f4b-4a24-a87c-6b0f6c12f7ed" "dc75a3ad-3033-4262-9dba-551380ce6750"
-			"e02fb0a6-f6bc-4c07-9482-07324ba8353f" "e099eab5-097d-4822-847d-af930bd6f0f2"
-			"e1ef1722-5f87-4909-96de-1e152aeca3e5" "e48fa0e1-0433-4ad3-b5ef-260dd100a8a3"
-			"e5f6949b-5948-453c-97d4-973b284fde80" "e6e996a8-4c31-4991-807e-c1f3452346f7"
-			"e85eedf8-0835-4358-8ac2-096810fb06ba" "ec412e88-8c7c-43a8-81a2-ffae84eefd97"
-			"eca7fc3e-9c07-4a0f-bb2b-580d31636010" "ef4d0bda-d4c3-4b32-8585-52e10deb1b44"
-			"ef76a5ac-0d28-4659-a075-1dcc13614665" "efca9f79-8fbd-4dc7-acf3-295bc757b1da"
-			"f0c97bad-2a21-470e-8eab-610d600e0413" "f23cfcc6-eaa3-4075-bd39-bc324e7a6c2f"
-			"f335a7d4-088d-4ee1-aa9b-d054b20f6534" "f3e5e640-1eec-471f-9c33-05f9e6ced246"
-			"f57017c8-c4f2-42e7-a090-b24947615a7e" "f5ff18a8-e4ea-4ba9-acc8-a24e3b79f167"
-			"f87da8bd-dca2-4fbb-8119-ef024cb58701"
-		)
-	)
-	(group ""
-		(uuid "5b7d4ec8-98bf-4d45-bc6f-daa32b1f17b8")
-		(members "030cf1b9-4d24-4eaf-b8b9-c986196c4118" "0a9033ee-c700-473c-a5cd-1cf4f5e17a44"
-			"17cf1d71-bfd9-4bce-bb6d-3e09f3cc2bff" "19cd38a6-b932-40df-899f-69eff27f7aae"
-			"21136518-0778-45ca-9980-66aa0152bfa3" "238f5a6d-97fd-4d58-8ab9-d102f7471183"
-			"32ee9fe2-c937-4a21-a052-8f9988691628" "3845c2fe-4ad0-4eab-8b94-89601c497f0f"
-			"3ad918c8-0124-4fb5-a319-7f38eb499998" "43225982-78ab-4321-90f3-2fcc1adb16c9"
-			"46529f06-8709-4940-9419-7773c80bb354" "4759ab3d-3318-4d92-bc77-9a46256d23b2"
-			"52b2bc47-f613-40bf-afbb-ed81e84d71c4" "55e3167d-12cd-432b-95c4-500c7d604a90"
-			"66edc4cb-b8be-4856-b039-ecce35d42506" "6e08b535-3ad6-4b8b-b249-807560e4968a"
-			"7b214c97-27d2-49ac-9654-829a3115cca8" "8af1d200-3e45-44fa-919b-1e06b9716b25"
-			"8c923901-0604-42d6-9754-646ff633b322" "938e1cc8-e0f9-4c13-b591-27fc8b27198c"
-			"96416642-772f-4274-b50c-7d9246a098fc" "9e263027-0c1b-4a2c-b553-be30c76f81e1"
-			"a3df97b3-adbd-417c-a02f-7a92772565be" "a535fb0d-7031-4567-ad65-cafcd4672bfa"
-			"a6760841-cbbd-48ec-980e-9474321b2cbf" "aa53d540-aa59-4587-9166-b7e0c5672f9d"
-			"adb84a9b-419e-47b4-80cb-bf798ca908dc" "b0fb6c45-c9ee-4b24-9c80-9c678e29efbf"
-			"b336d623-add3-4d1d-8319-0ffe2ab8f61c" "b4a9bde8-ce63-4340-9b55-951509924ea8"
-			"ba960268-b5d0-4f7f-baa1-2cf70ef269a7" "bb9e6b9d-6d81-4246-b158-c6a7b1f0349e"
-			"be50ca5a-a056-4cb8-bfe7-7629fececc77" "c62edfdc-1ca1-42ba-b369-cc9f1bec9a77"
-			"d5223be6-b401-476d-9cc4-cf8ef4607ab2" "d643c7cb-4699-4754-a6ee-db0e74289236"
-			"d8ff5e3d-b02b-4aaf-9c09-a7619e73d950" "dd0411d3-98f3-4ab2-b2f1-5532d6a853bb"
-			"de05d051-5a2d-4b89-8b3b-4f742be707d3" "df6b2a14-b5b9-4e3c-93a3-844dd9ffeaa4"
-			"f308124a-2de6-4250-9c03-0da45d11532a" "f88b44e7-524d-433e-a56d-8a3cdba437e7"
-			"f90758d6-2c5e-48b1-9cc2-cf04313c721c"
-		)
-	)
-	(group ""
-		(uuid "73fd96e7-6ad4-4aa8-bfdd-0b55a3c774f3")
-		(members "0256a887-ac2e-4723-9def-830f6de736d2" "0a2ade40-4a32-4757-94b5-7345977f775f"
-			"12f57371-b8ad-4158-97a5-1936ff32dc26" "1a0b66a8-45af-4e69-aaeb-da64260d16e8"
-			"1ebe91ef-8728-44f6-a6fc-41dc65967420" "2287369d-89ef-4bc5-8f49-e67dc48bdc27"
-			"26142bf2-dd03-46d5-9459-dd08882533a8" "31252e57-f0ce-44e7-8a27-d060eb093caa"
-			"32d10a0e-26bc-45e9-a2cb-7c799cb27dea" "39b917b1-71aa-48a4-884d-195121df4dda"
-			"3b1e90f2-76d9-4243-a27c-131309e50cb1" "3c77ce27-ea27-494f-9de4-f537d5d05641"
-			"3dae6677-2114-4f8d-9c61-0a0350aa5032" "4070d8a4-8064-406b-86a3-e0ec95255b86"
-			"4a4366f3-acb1-40f5-a74e-cbbd333d09a5" "4cc86233-00fe-49d1-a4c2-236e16334503"
-			"53144edf-e31e-49dd-8f74-ed975a4a4dee" "56d69559-99c6-487d-a54a-d9e4c2636394"
-			"59fb9b6f-5d97-4e75-8c7c-c694bb305c75" "5fd57b5b-75a9-408c-a5db-0d6d2f72ca10"
-			"64168524-dd83-4c8d-8805-244873abab46" "64d1655f-6cc5-45f9-b455-35745d73703e"
-			"65730f82-0409-470f-a546-021c726f03cd" "69040684-2951-488e-8970-4fc400119afd"
-			"6eb89249-3ffe-4464-8677-ccabc45b0d3f" "711b2ae6-f159-458f-9628-00170e624faa"
-			"75f679ec-2e32-410b-a3ba-b2cf9611d985" "7c9b8775-a988-494c-90d2-053338b4cb65"
-			"7f4b3c7b-a91e-48c2-8efa-70fa8abcab64" "82761dfb-15d8-4826-8977-e1eb6ca78857"
-			"869e261f-27ac-444e-ad84-24e6e67cd462" "87d88dc8-6835-4ebb-8466-38998eb4f58c"
-			"882c1297-7ce0-4e2e-b34f-eeacf14c31d3" "8ec89040-c856-4f95-af1a-c059b58096f7"
-			"978e40fe-0bd4-43e1-8f2c-df4d44b539c6" "9873ddbf-52fb-49b6-93a1-e2b4c1cfb3cb"
-			"9bfe8be3-c16b-4ca5-bc5b-e158bd8d76f9" "9cffcf56-c906-440e-8612-4e55334e77b5"
-			"9deeb724-8c3f-40dc-ae4a-9d65d50341c6" "a1f85800-9a35-4c8f-90fb-a1f528d7a725"
-			"a20974fe-db9b-4ee9-820d-2d1dbe1e8b2f" "a6c546bb-1288-4c13-9094-18187da8f5ea"
-			"ae550c9d-a571-483a-893b-8528fc369567" "afa1348a-bac7-44de-815b-019b57776229"
-			"afea8ab3-5513-40ab-b08d-9e58fdc25ce2" "b011bc81-d265-452a-a118-2b8f4aaacec7"
-			"b6c17edf-0083-43b4-a572-31ec3a3fac34" "b7cf3d59-43ea-403c-836b-e45f94bb5407"
-			"b9143087-7c3a-43f8-821e-840699e3f3e0" "c2007c7d-bca6-4002-91fb-adf0c5d75cdc"
-			"c3c8102e-b58c-4106-8e97-aae6d0c045f4" "c4e8be92-c6c8-44a8-9bd4-002407ad8599"
-			"cb20b963-3a3b-43ed-b5ab-a485b9115c63" "cd930cb0-18ef-4a8d-a6f3-7f064c6bc815"
-			"d581dcd2-5483-4548-bdc5-1aafe4d38d68" "d717924c-ed4c-4b47-9a64-d29ef2f3c149"
-			"dd2363e9-4ac1-4adc-8504-c8ffbaa5f38f" "ddb588e3-c33d-4e9a-ab2a-f6de86082bef"
-			"ddcdd390-b717-437e-a3a7-25f0b33fe403" "dfd1b86c-c1ce-4519-aa20-527a66ce30f2"
-			"e14efe4a-279f-454b-b01a-09ff59d8d547" "edc3b21b-82d1-493f-9020-e61b2975e961"
-			"ee1d9d89-fc9c-49b7-8387-f56ff3fdee04" "f1eacf42-1430-4820-8fcc-399f5dde9744"
-			"f271e036-a2b6-4103-9846-3ac7d9948fc8" "f406cb3f-cd36-40c5-90bc-d6d3a4195b8c"
-			"f9b375f1-ca66-4ac1-abad-0f726cd63a86" "fdea80a4-7d8f-466a-80cf-fa84b23cb33b"
-			"fdf49f4c-1c30-4c94-ada2-663d923b9fc3" "fe703898-7ea4-416d-9ed3-b68aaaa34891"
-			"ff17775d-c137-497f-ae01-eb604362f570" "ff276cd8-1125-4554-af2a-f3a27ee42819"
-			"ff5ab2d6-6bca-49ff-ba64-f80af04e3c88"
-		)
-	)
-	(group ""
-		(uuid "a757871a-fe28-4165-a436-68ba9830330e")
-		(members "03a9e6eb-be07-4042-9f6e-2c3f28b735e8" "03e3a717-526c-41cb-abea-25e262bb5d4c"
-			"1410f47c-0bc2-4002-baab-83309bdb84b7" "1df2de81-1bb2-4c8b-ac57-3aee4de40dba"
-			"20f3ba4f-8650-477a-8626-3b3a3ef4d396" "25f2464e-9aae-42c4-ac75-c0b210b2bf82"
-			"269a615f-50f0-4a66-90c9-5984a9f64781" "2cd7bdd7-e518-4b0e-8605-04bedc3712ff"
-			"2f419d8a-0c0e-4db9-b5ac-b52dc6f72cb0" "526396d5-02eb-47f1-b573-27e5f0673c0f"
-			"733666ca-9a48-4beb-b4a3-9a0858105356" "74ceb447-9730-430c-87e2-dca03cc90e6a"
-			"97d24452-6b35-4e5e-9577-b886b5b22401" "a27773a7-9145-4de3-8ff1-9abeba6ab12f"
-			"c1d28a40-ac56-4836-9374-4a95e00699ed" "c993b851-555b-4857-8bad-3f7e2c7521d4"
-			"ccb65565-9863-4a65-b7ca-7ef3c34250ca" "d28cf3d7-8e78-4c41-9eb9-0694d42effc8"
-			"d95e1dc6-482b-4fde-8b14-9eafe62f3a95" "e5ca4ba8-ce65-4864-b188-d7ba52d0a371"
-			"ec05f0f9-b060-40cc-a181-27c5cad21011" "ed28b6ef-7f1c-4305-bf92-e786220fd8d6"
-			"ef2b8d6a-e60a-4a31-aea2-38fd3f3a6800" "f1145aa7-724f-405a-8067-f6f9098545c9"
-			"f9b524b1-cb6f-44e6-9e69-d93ffe079e12"
-		)
-	)
-	(group ""
-		(uuid "c324c8b1-ad6e-459b-bbe9-e0c0bdf8a537")
-		(members "02f61c35-19c3-4a75-8ba7-dcc26e424483" "09f56845-a7ec-4fe2-bddc-e0ccaef6f6f3"
-			"10ab2d84-0b57-4bc0-bfbc-d2ededc9e885" "12b38ec5-baa6-4ac7-90b9-27e4f9991f82"
-			"1aac328d-130a-4426-9054-3c30ef0589c2" "1afd4e37-0d18-45ea-bc4d-e9cfa38f858b"
-			"1ca3b5a6-9b13-4c9f-80b0-dce4ce5e688a" "1dc5afe0-3b7a-434b-8cf3-60e30303d0e6"
-			"22c558a6-f935-4c45-a5a7-83a66591e915" "29ec3636-f04c-4c14-a7c9-b025abb8fa5b"
-			"2abb920c-a013-4e2f-9e3c-a7cf3a369774" "2c6dcb17-a7c6-451f-8215-62d0bdf14a10"
-			"2cedfc81-5008-4db9-b05c-e0a736619478" "33eafc5d-5d07-49f2-839c-4383bd44158f"
-			"344d9adb-4089-4bf3-9730-5de5037efe27" "435fe084-c153-44f5-9822-13482d06b378"
-			"43af8fe9-2352-4823-8cbf-29f2939a0cb1" "48edd7ce-b3f2-4f5e-b61f-ead0b7192d08"
-			"4b4fa77a-d490-4810-bead-8c5a8e992d00" "5757a847-1905-4458-a7ad-53546d797b71"
-			"59e701e1-04d1-4457-b6a1-c127043530bc" "6109a65c-ee6a-47af-989c-996162df781e"
-			"616592b0-7dd0-4261-9cb3-a83354a4bcf0" "676611f4-eab9-4ad2-88c6-a8ed996523f8"
-			"6836e924-9bfb-439b-9503-86f5cd1b594e" "6939c739-f370-4e57-b98f-b68aab2cfcf4"
-			"7382bb5e-40e2-4dfd-a86b-e32613073af7" "778c6ef6-e107-4688-8f5a-e6a346026663"
-			"7921a6e7-ce74-4e25-91a4-ae0dd98baa61" "7ef51819-f1f4-4c21-8afe-55d47149f50c"
-			"7f10af42-ab04-41b4-a1f8-cc97347c1042" "85cbf055-48cc-4914-bed6-fc1bbb5aecd9"
-			"8c09510b-a5a9-47ab-8926-f47d68ea3598" "8f9a22c2-b7de-48eb-a1a8-87ee65f09e38"
-			"9e4a6712-9c49-49bb-b520-221cea5fec07" "a6265dae-faa2-474c-b854-f83f79c30353"
-			"a7da5255-03e8-4bb0-94b8-f842f929e503" "c3e48f13-2dae-4b30-805b-7bba477b6893"
-			"c41d6111-78bd-4910-92c5-d7f7ec88a0b2" "ca90d431-0540-439e-9fcf-1fcadd46542c"
-			"d0223079-b5f6-48eb-81e1-778d250bfe2d" "d6459b37-0fa4-41c5-a5af-3dfff984c4d1"
-			"e0ac35a3-9e55-45cd-bed4-164e78c15d5c" "e30aec49-0c7f-4f9d-9745-77a831d252da"
-			"e829e22b-0801-4624-a15f-b72e76d8624b" "ead0f6bc-d95d-4f6d-a211-0f3a093f4e34"
-			"ed369c22-5ac2-4844-bd86-01ba2216c2fb" "ee1f792e-266a-4c8e-8d32-c4da8e84ca80"
-			"f093cd28-f34a-4b4a-8809-4fb215bc01d0" "f994784d-964b-4a6d-9637-17dcfd514b04"
-			"fdd46938-4197-48c0-baf2-71c1caa3d5c3"
-		)
-	)
-	(group ""
-		(uuid "e4826310-bb8f-4290-b5ae-e60e8a431fd3")
-		(members "005cb0ac-fc76-4cfe-9f75-caee2f00ad49" "00608e2c-d728-4dfd-bd35-098b82aca7c3"
-			"00f27e5d-57f5-4157-9c21-90d8419c371a" "02347a4e-ad69-4b10-bd7c-fb234ffba5b4"
-			"0323d88e-ae30-4cea-9299-3d570260b6de" "047743b0-fc39-4764-851b-30a4d17d26b8"
-			"04eaacd9-e225-4ebb-8f10-071188b0bcd1" "06b58b2b-fe8b-47ca-a89e-6cd35d764dd5"
-			"077ae544-9c9a-46f8-9828-b2c0e7219d61" "084c50c3-7b2a-4e10-a954-79b25781eff2"
-			"08e8b193-4b11-45f0-ab90-b929357154c3" "09748365-fe07-4b8d-a231-c6322e01b915"
-			"0a1b974e-bae0-4092-8225-83f801b777aa" "0aba9334-56d2-4672-bb25-ee9e7f7821ec"
-			"0bb42e75-8458-41f4-8b30-cc420aadf455" "0c21e5d8-026b-4acf-9c58-5c25ea301eb0"
-			"0c64f771-a40d-4ad9-a2af-79c276a6df4b" "0e96401e-0044-4415-8bb8-ee92c143355d"
-			"1055a06e-3bea-4f60-bc4d-23bc2466e53f" "12a31bf5-8d4d-4196-87c4-3a7235be361c"
-			"14f97e80-ce8d-450c-8408-40b61a715a61" "1892298f-5b9d-4c3f-9790-866264a685c2"
-			"18e55646-df00-4da9-adf9-57a9d425295c" "19245da9-2660-46ab-827d-969303cb39b0"
-			"19bc0c2f-1eeb-4044-9f2e-a6bfa709ba3e" "19d75e61-dd29-4fbe-8c6c-9481ed93abb9"
-			"1c6b695a-751d-4eb6-891d-0cd45f15403f" "1cca197c-747d-4e30-87e0-e46a97087466"
-			"1daf12f4-4ab1-41a7-9a1b-4dd2b506c2cd" "1fae915e-5e15-4cb5-acb6-b4be851daadf"
-			"21c99818-8d03-439a-9d4c-12853c45cdd3" "254c6433-a478-44ea-97e2-03ea617594ef"
-			"25751161-1801-48b7-a2b2-39be86649244" "27057599-7095-4fe3-ba71-72fc865ccb69"
-			"28404b2e-f57f-41df-aaab-f84dda98e370" "28b3cd5a-537e-4d8f-ada0-966b5e37fb5e"
-			"2928d4a2-eac2-4052-b250-1149af526f67" "29b0ecc8-8cec-483d-b0e3-1f545be96ecf"
-			"29ff1181-3b3a-448d-aabd-36048c0c8fc4" "2b444722-1109-4d16-9904-a1b4f99f11a7"
-			"2be4f90e-778b-4873-9a0a-eb808a9de761" "2da64ca7-0fc5-4a86-97ce-3c8bb9e6dc87"
-			"2ef7bf7c-7cf9-45cf-aa69-ee2d04e726f5" "2f82dead-a4a1-47a3-9ac7-6805bde0fa47"
-			"309e290d-6172-45ef-a62e-c56bd4d446cb" "31541a83-5f0e-4a00-97e7-b843c97109bf"
-			"3342833c-4f87-4831-b8ea-d620082e3f27" "337291a3-3eda-4db1-9a68-c8663a7fa21d"
-			"33fc626a-9416-4ff0-a1e2-961feb25c94f" "35aa6909-cc5c-49e2-acd8-e3e6bbf3d5cf"
-			"3991fa70-d974-4bfc-a267-647562e909b1" "3a680ed0-352c-471c-bc4a-4a919bac0725"
-			"3bb024bd-fcd5-4923-80b7-4a12422eba43" "3f285ddb-292e-4a25-8a69-001b3ce7a853"
-			"42101fd9-de45-4c63-951e-15059205cf45" "42144eac-cf9d-4cd3-8b12-f13e796da213"
-			"44c0608c-dc8a-40f0-b018-b0ac808bab7e" "4558b5ff-9ac3-4a81-943e-15324912579a"
-			"45910939-429b-45dc-b4dd-dbfa51526cac" "46834a0f-97a0-4422-8ef1-ff11c7587761"
-			"47c64bd7-2182-4ffb-a57a-dd1e0d49d24d" "483a0c16-0e61-4c53-a18e-7f068ad312ed"
-			"488888e9-bf83-419b-b696-904e50354207" "49a8e627-3d84-4e3c-a49b-cfe09ab74d15"
-			"4a5b0080-b26c-4ea6-81d1-bba9f6169383" "4ac4c7a7-09f6-4183-a694-9b89347bc258"
-			"4c02ea9f-07ce-47ae-8a6b-d5fca468bd43" "4e4c55b7-4e0a-4ef5-aad4-1307e3bb375c"
-			"4e8aeab2-5151-4677-8fd7-d35f8936503f" "4f258d1b-078e-48b2-b27f-3406e72fa9ef"
-			"51db8c8f-bf00-47e9-8170-8c0bbe644656" "5505c826-08d5-4396-b86d-5f2ccaa1cd03"
-			"5688dd32-0edd-4e81-9078-a0ef172372cf" "56b7228f-818d-4968-b5c7-d169f1b5d57e"
-			"57c86759-7622-401b-9a9c-4decd3b6169b" "5815223e-b3be-48fb-bea0-d5954d214082"
-			"58366a66-aae3-4a4a-906e-c7764369f73f" "59459232-88ef-480b-aedb-329540faecf2"
-			"5bcaa794-7c0b-4fa0-b8c8-1a89db4b4405" "5d768197-8a3d-4184-b67a-97549284fcc7"
-			"5dd0a041-595e-44f3-9377-3db8ee7e1061" "5eea74c1-35bc-4cee-88f7-b1ff30208fd3"
-			"61eaad05-f03c-45e0-9195-d2b642ca281d" "62123484-24ca-489d-b823-59c28ed5fff5"
-			"6268132d-0827-4d37-9eb6-4a50217ed0d3" "640492f3-5c29-42cd-bcba-e2b2ca3bcdde"
-			"64fa7c57-3e4f-47cb-a608-68383344a471" "66352d4f-bfc8-44f4-a80f-cfd24b2acb9a"
-			"684b49ea-e47e-4c5f-b861-bf5c6b621b86" "6a20904b-4706-4c3b-b870-230c4cc349c9"
-			"6a7011a9-ac25-4f60-a0a0-16089cd45349" "6ae70a19-aa5f-4826-9c4c-b710e6050cf2"
-			"7056128c-9e78-478c-b4b1-6338292d073d" "73596678-001c-4543-a8c2-8121e343245f"
-			"7381ad2b-d872-4685-a619-3fe1615db356" "7388b9f9-dd73-4572-b365-a73cc606efba"
-			"77fa3dc1-3c3b-4a6c-87a4-38198316befd" "7856f9b8-8bcd-4bab-897e-3bfe4bfdb4a9"
-			"7acf89a2-104e-438f-a9b5-f6cbbf79575b" "7ae9256c-e06b-460d-aa09-19e857251d04"
-			"7c791d08-5f65-4fc3-8186-2448ead588e6" "7dbf289d-bbae-48a3-afc5-4a264786dcf5"
-			"7e27d313-0f2b-44fa-9f86-a87ff05d8aa2" "7e410c4d-364e-4a5c-b5f3-93ceb56633d3"
-			"7f1abee4-e37f-40f8-9f31-a90d37fdd79b" "84d14458-37dc-4865-be64-fc0ced77591d"
-			"84f1769e-3bf7-4803-935c-3ede950d8777" "85bdd6ae-0a49-4e26-ba12-949c34109c1a"
-			"8931fea3-3e9d-45f2-a447-994729084fe9" "89695705-123a-4d54-a91e-909c9dc7e309"
-			"8c7f701b-c44d-4958-af6a-77b3bebcc411" "8d4b774b-acc2-4f34-bcf7-883a951acd65"
-			"8f77e815-bc10-4bed-aec8-76aefb213202" "9024da34-9284-4a7c-9233-ef6277d19700"
-			"911ed25d-c54f-4af1-baa7-ec555c0d783e" "912c73b9-2ab6-4092-b533-5acdaf4adb3c"
-			"912cc608-9db7-420c-852f-fabe9da3cfbf" "946a3c6d-6ac6-46a7-8e41-a388a3bdf4ac"
-			"946f6f87-1f9e-475d-9728-971c7f70ab77" "94a9c836-66ea-40e5-af27-1584b17c871c"
-			"94d9e8e2-1643-47d2-9ead-3714dabaf897" "9725cbeb-3928-4420-b91e-4920e5e9edca"
-			"9742109a-0064-4c04-bad9-3db8ec2f6c36" "9774ec6b-a7e0-4bd7-9a20-443bc243297a"
-			"9ae2c405-1254-49d3-a6e9-d40554883545" "9caa7352-3378-4547-860b-368a885253d7"
-			"9ccb04e3-9d83-4050-b404-33e7c416b50e" "9e830381-8986-4bbb-973a-259fb53c2429"
-			"9eb7b5e1-3b79-41e4-84c2-0f645a79988e" "9fbd448b-e3ef-4f52-81a4-b4cf1ebfc19b"
-			"a01232b6-67ac-4961-8e21-5da486262145" "a017d9ca-b48a-401c-9e5d-1e47dba2450f"
-			"a8a7bfd2-1eba-4de8-96ff-e9de303af312" "a8cf45f6-53db-4577-8a44-7c58fe87f47e"
-			"aa0bec13-41a2-48ed-a2f9-31e01d94e850" "aa7af7a9-047d-430c-8d83-89a0949b2bf0"
-			"ae1cffaf-096e-4cdd-860b-715f83dbfa30" "b17c3431-10ad-4bf2-a813-23dafff264cd"
-			"b25eb8dc-43e1-4ab7-8e5a-4576a55e72f9" "b2f35cb5-4cc6-4416-a1c7-c771c759e6b1"
-			"b312c802-0c7b-473d-bae7-15a308171994" "b4afa47e-60d5-4fea-950a-c13bc0ec063f"
-			"b72a564b-9b02-4e0b-ad04-89aa1182e7a8" "b757fe08-a2f9-4128-96da-dada56c423a7"
-			"b8061214-9d51-480b-aeb8-3efb4f1d4cc1" "ba06428b-9210-4cbd-a149-1a073d47620b"
-			"bfd74f29-45a4-487f-8e7a-5039037d3c58" "c26b7f4e-f8ae-47e9-955b-b4a585531fbf"
-			"c498a085-15dc-4cc2-a87f-590ca558a77f" "c73135f7-c52e-42ae-be99-637b701aafb7"
-			"c903567e-d9e8-4f8c-8adc-95f01d5b3fc7" "cda79473-4d2c-4f1d-82bf-72e049c111ba"
-			"d95de5ff-821c-453d-ab43-e37c6deb9e2e" "ddb67ecc-9c48-4ea2-b2e8-1b6c06cd6a10"
-			"de72caa5-c0b8-434c-a0b2-fd2df5b019e3" "e11bf297-a81b-421c-8e09-c7f3076415c1"
-			"e217e12d-88cc-4b3a-b59a-7a25639a8ea6" "e2282525-c773-4b66-b02e-96d157dc60f3"
-			"e3a8b762-25d5-4a6d-acf4-7ade76943d55" "e5546d17-3b67-4048-85cf-2e3049c8aa62"
-			"e739890e-a3d3-46d6-af52-ee142fd7b55a" "e834a27b-2cba-48db-b35b-78ca9f4ace4c"
-			"ec6864cb-102c-441b-823d-2693748d46af" "f1c34b20-465e-4bb2-8417-d5299dd133e4"
-			"f7a9a627-38ca-4867-b973-cde24f4d68a7" "f90c1751-d679-4c5a-a4bc-76026f427815"
-			"f9dfb3cd-c3ab-4b63-b20b-b6b7e2d4d80a" "fafb6084-6977-439e-94a7-14c051dc1973"
-			"fbd79247-a825-4296-b0d2-e5dde958ce1d" "fd192559-0758-4e98-9674-e0d768fa12d2"
-			"ff3367fc-2ce1-4392-b561-627282163ea4"
-		)
-	)
-	(group ""
-		(uuid "e5553b70-4e69-4863-819f-12f0de68b75c")
-		(members "0bfff8e7-2979-43d4-a4e0-1e65b6f2e6b8" "5be89428-262a-4fa9-91f5-36b974a83b7d"
-			"71736bf2-04ea-4e85-92f0-33de62b3e27d" "8cc42650-ebef-43ad-86fd-e1a239485715"
-			"8dd32d58-0817-4090-91a7-886a08a6d9bd" "932d1a77-727b-4c5f-a9fb-d7c3a8e258d9"
-			"94a47cda-000c-4bf8-b54d-3c90cd43cdc0" "9e004216-83c9-4431-bd9c-58d1de1bb509"
-			"d1418350-6e0d-4f74-ba54-4eb38483ce97" "d91ec57a-71db-4458-ba05-6c852c9cd5d9"
 		)
 	)
 	(sheet_instances
